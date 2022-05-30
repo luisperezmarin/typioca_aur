@@ -12,7 +12,7 @@ jobs:
       - name: Sync AUR package with Github release
         uses: luisperezmarin/aur-sync-action@master
         with:
-          package_name: dockle-bin
+          package_name: typioca
           github_repo: 'bloznelis/typioca'
           github_local_repo: 'luisperezmarin/typioca_aur'
           commit_username: ${{ secrets.AUR_USERNAME }}
